@@ -11,10 +11,12 @@ module.exports = {
   extends: [
     '@nuxtjs',
     'plugin:nuxt/recommended',
-    'extends': 'standard'
+    'standard'
   ],
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    "function-paren-newline": ["error", "never"]
+  }
 }
