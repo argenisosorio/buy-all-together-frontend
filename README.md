@@ -1,4 +1,4 @@
-# Store project
+# BuyAllTogether - Frontend - Store
 
 ## Build Setup
 
