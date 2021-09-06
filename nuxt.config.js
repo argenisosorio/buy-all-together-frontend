@@ -26,7 +26,8 @@ export default {
     '~/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css',
     '~/assets/vendor/fancybox/jquery.fancybox.css',
     '~/assets/vendor/slick-carousel/slick/slick.css',
-    '~/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css'
+    '~/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
+    '~/assets/css/theme.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
