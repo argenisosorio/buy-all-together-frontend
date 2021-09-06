@@ -3,6 +3,7 @@
     <Header />
     <Main />
     <Footer />
+    <Aside />
   </div>
 </template>
 
