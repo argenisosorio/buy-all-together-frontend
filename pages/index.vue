@@ -4,6 +4,7 @@
     <Main />
     <Footer />
     <Aside />
+    <GoOnTop />
   </div>
 </template>
 
