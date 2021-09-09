@@ -44,11 +44,11 @@ export default {
       axios.post('https://admin.buyalltogether.tk/api/v1/login', userData, header)
         .then((response) => {
           console.log(response)
-          console.log('Success')
+          alert('Welcome')
         })
         .catch((error) => {
           console.log(error)
-          console.log('Error')
+          alert('Access denied')
         })
     }
   }
