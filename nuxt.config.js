@@ -16,8 +16,6 @@ export default {
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" }
     ],
     script: [
-      { src: "js/jquery-3.5.1.min.js" },
-      { src: "js/script.js" },
       { src: "vendor/jquery/dist/jquery.min.js" },
       { src: "vendor/jquery-migrate/dist/jquery-migrate.min.js" },
       { src: "vendor/popper.js/dist/umd/popper.min.js" },

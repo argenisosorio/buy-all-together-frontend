@@ -1,25 +1,17 @@
 <template>
   <div class="container">
     <h1>Login</h1>
-    <form method="post" @submit.prevent="login">
+    <form method="post">
       <label class="label">Email</label>
       <div class="control">
-        <input
-          v-model="email"
-          type="email"
-          name="email"
-        />
+        <input v-model="email" type="email" name="email">
       </div>
       <label class="label">Password</label>
       <div class="control">
-        <input
-          v-model="password"
-          type="password"
-          name="password"
-        />
+        <input v-model="password" type="password" name="password">
       </div>
       <div class="control mt-2">
-        <button type="submit" class="button">
+        <button type="button" @click.prevent="login()">
           Log In
         </button>
       </div>
@@ -32,29 +24,33 @@ import axios from 'axios'
 export default {
   data () {
     return {
+      email: '',
+      password: ''
     }
   },
-  created () {
-    const userData = {
-      email: 'roldandvg@gmail.com',
-      password: '12345678'
-    }
-    const header = {
-      headers: {
-        'Content-Type': 'application/json;charset=UTF-8',
-        'Access-Control-Allow-Origin': '*',
-        'Content-Language': 'en'
+  methods: {
+    login () {
+      const userData = {
+        email: this.email,
+        password: this.password
       }
+      const header = {
+        headers: {
+          'Content-Type': 'application/json;charset=UTF-8',
+          'Access-Control-Allow-Origin': '*',
+          'Content-Language': 'en'
+        }
+      }
+      axios.post('https://admin.buyalltogether.tk/api/v1/login', userData, header)
+        .then((response) => {
+          console.log(response)
+          console.log('Success')
+        })
+        .catch((error) => {
+          console.log(error)
+          console.log('Error')
+        })
     }
-    axios.post('https://admin.buyalltogether.tk/api/v1/login', userData, header)
-      .then((response) => {
-        console.log(response)
-        console.log('Success')
-      })
-      .catch((error) => {
-        console.log(error)
-        console.log('Error')
-      })
   }
 }
 </script>
