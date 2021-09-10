@@ -28,6 +28,9 @@ export default {
       password: ''
     }
   },
+  head: {
+    title: 'Login'
+  },
   methods: {
     login () {
       const userData = {
