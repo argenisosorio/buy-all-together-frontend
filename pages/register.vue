@@ -2,6 +2,7 @@
   <div class="container">
     <h1>Register</h1>
     <form method="post">
+      <h2>User</h2>
       <div>
         <label class="label">Name</label>
         <input v-model="name" type="text" name="name">
@@ -11,6 +12,14 @@
         <input v-model="email" type="email" name="email">
       </div>
       <div>
+        <label class="label">Profile type</label>
+        <input v-model="profile_type_id" type="text" name="profile_type_id">
+      </div>
+      <div>
+        <label class="label">Phone</label>
+        <input v-model="phone" type="text" name="phone">
+      </div>
+      <div>
         <label class="label">Password</label>
         <input v-model="password" type="password" name="password">
       </div>
@@ -18,13 +27,10 @@
         <label class="label">Password confirmation</label>
         <input v-model="password_confirmation" type="password" name="password_confirmation">
       </div>
+      <h2>Store</h2>
       <div>
         <label class="label">Country</label>
         <input v-model="country_id" type="text" name="country_id">
-      </div>
-      <div>
-        <label class="label">Profile type</label>
-        <input v-model="profile_type_id" type="text" name="profile_type_id">
       </div>
       <div>
         <label class="label">Store name</label>
@@ -39,8 +45,12 @@
         <input v-model="category_id" type="text" name="category_id">
       </div>
       <div>
-        <label class="label">Country store </label>
+        <label class="label">Country store</label>
         <input v-model="country_store_id" type="text" name="country_store_id">
+      </div>
+      <div>
+        <label class="label">Store phone</label>
+        <input v-model="store_phone" type="text" name="store_phone">
       </div>
       <div>
         <button type="button" @click.prevent="register()">
@@ -60,12 +70,14 @@ export default {
       email: '',
       password: '',
       password_confirmation: '',
+      phone: '',
       country_id: '',
       profile_type_id: '',
       store_name: '',
       branches: '',
       category_id: '',
-      country_store_id: ''
+      country_store_id: '',
+      store_phone: ''
     }
   },
   head: {
@@ -78,12 +90,14 @@ export default {
         email: this.email,
         password: this.password,
         password_confirmation: this.password_confirmation,
+        phone: this.phone,
         country_id: this.country_id,
         profile_type_id: this.profile_type_id,
         store_name: this.store_name,
         branches: this.branches,
         category_id: this.category_id,
-        country_store_id: this.country_store_id
+        country_store_id: this.country_store_id,
+        store_phone: this.store_phone
       }
       const header = {
         headers: {
