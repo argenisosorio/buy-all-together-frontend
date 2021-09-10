@@ -13,7 +13,15 @@
       </div>
       <div>
         <label class="label">Profile type</label>
-        <input v-model="profile_type_id" type="text" name="profile_type_id">
+        <select v-model="profile_type_id" name="profile_type_id">
+          <option
+            v-for="(x, index) in tipos"
+            :key="index"
+            :value="x.id"
+          >
+            {{ x.name }}
+          </option>
+        </select>
       </div>
       <div>
         <label class="label">Phone</label>
@@ -66,6 +74,7 @@ import axios from 'axios'
 export default {
   data () {
     return {
+      tipos: [],
       name: '',
       email: '',
       password: '',
@@ -82,6 +91,26 @@ export default {
   },
   head: {
     title: 'Register'
+  },
+  created () {
+    const userData = {
+      store: 'true'
+    }
+    const header = {
+      headers: {
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Access-Control-Allow-Origin': '*',
+        'Content-Language': 'en'
+      }
+    }
+    axios.post('https://admin.buyalltogether.tk/api/v1/list/profile/types', userData, header)
+      .then((response) => {
+        // console.log(response)
+        this.tipos = response.data.data
+      })
+      .catch((error) => {
+        alert(error)
+      })
   },
   methods: {
     register () {
@@ -108,7 +137,7 @@ export default {
       }
       axios.post('https://admin.buyalltogether.tk/api/v1/register', userData, header)
         .then((response) => {
-          console.log(response)
+          // console.log(response)
           alert('Success')
         })
         .catch((error) => {
