@@ -24,10 +24,6 @@
         </select>
       </div>
       <div>
-        <label class="label">Phone</label>
-        <input v-model="phone" type="text" name="phone">
-      </div>
-      <div>
         <label class="label">Password</label>
         <input v-model="password" type="password" name="password">
       </div>
@@ -35,7 +31,10 @@
         <label class="label">Password confirmation</label>
         <input v-model="password_confirmation" type="password" name="password_confirmation">
       </div>
-      <h2>Store</h2>
+      <div>
+        <label class="label">Phone</label>
+        <input v-model="phone" type="text" name="phone">
+      </div>
       <div>
         <label class="label">Country</label>
         <select v-model="country_id" name="country_id">
@@ -48,22 +47,43 @@
           </option>
         </select>
       </div>
-      <div>
-        <label class="label">Store name</label>
-        <input v-model="store_name" type="text" name="store_name">
+      <h2>Store</h2>
+      <div v-if="profile_type_id === 4">
+        <div>
+          <label class="label">Store name</label>
+          <input v-model="store_name" type="text" name="store_name">
+        </div>
       </div>
-      <div>
-        <label class="label">Branches</label>
-        <input v-model="branches" type="text" name="branches">
+      <div v-else />
+      <div v-if="profile_type_id === 4">
+        <div>
+          <label class="label">Branches</label>
+          <input v-model="branches" type="number" name="branches">
+        </div>
       </div>
-      <div>
-        <label class="label">Category</label>
-        <input v-model="category_id" type="text" name="category_id">
+      <div v-else />
+      <div v-if="profile_type_id === 4">
+        <div>
+          <label class="label">Category id</label>
+          <input v-model="category_id" type="text" name="category_id">
+        </div>
       </div>
-      <div>
-        <label class="label">Country store</label>
-        <input v-model="country_store_id" type="text" name="country_store_id">
+      <div v-else />
+      <div v-if="profile_type_id === 4">
+        <div>
+          <label class="label">Country store</label>
+          <select v-model="country_store_id" name="country_store_id">
+            <option
+              v-for="(x, index) in countries"
+              :key="index"
+              :value="x.id"
+            >
+              {{ x.name }}
+            </option>
+          </select>
+        </div>
       </div>
+      <div v-else />
       <div>
         <label class="label">Store phone</label>
         <input v-model="store_phone" type="text" name="store_phone">
