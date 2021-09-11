@@ -9,5 +9,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'MAALHOUSE - Store'
+  }
+}
 </script>
