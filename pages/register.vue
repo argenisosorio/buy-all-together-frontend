@@ -44,6 +44,7 @@
                             v-model="profile_type_id"
                             class="form-control"
                             name="profile_type_id">
+                            <option value="" selected>Select</option>
                             <option
                               v-for="(x, index) in profile_types"
                               :key="index"
@@ -92,6 +93,7 @@
                         <div class="form-group">
                           <label class="form-label">Country</label>
                           <select v-model="country_id" class="form-control" name="country_id">
+                            <option value="" selected>Select</option>
                             <option
                               v-for="(x, index) in countries"
                               :key="index"
@@ -151,6 +153,7 @@
                           <div class="form-group">
                             <label class="form-label">Country store</label>
                             <select v-model="country_store_id" class="form-control" name="country_store_id">
+                              <option value="" selected>Select</option>
                               <option
                                 v-for="(x, index) in countries"
                                 :key="index"
