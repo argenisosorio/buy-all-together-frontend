@@ -59,14 +59,14 @@
                                             href="/register"
                                             class="u-header-topbar__nav-link"
                                         >
-                                          Register
+                                          Sign in
                                         </a>
                                         <span class="text-gray-50">or</span>
                                         <a
                                             href="/login"
                                             class="u-header-topbar__nav-link"
                                         >
-                                          Sign in
+                                          Log in
                                         </a>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
@@ -549,7 +549,7 @@
                                                 class="text-gray-90"
                                                 data-toggle="tooltip"
                                                 data-placement="top"
-                                                title="Login">
+                                                title="Log in">
                                                 <i class="font-size-22 ec ec-user"></i>
                                             </a>
                                         </li>
