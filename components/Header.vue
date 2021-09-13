@@ -54,11 +54,19 @@
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <!-- Account Sidebar Toggle Button -->
+                                        <i class="ec ec-user mr-1"></i>
                                         <a
                                             href="/register"
                                             class="u-header-topbar__nav-link"
                                         >
-                                            <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
+                                          Register
+                                        </a>
+                                        <span class="text-gray-50">or</span>
+                                        <a
+                                            href="/login"
+                                            class="u-header-topbar__nav-link"
+                                        >
+                                          Sign in
                                         </a>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
@@ -525,7 +533,26 @@
                                         <!-- End Search -->
                                         <li class="col d-none d-xl-block"><a href="../shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
                                         <li class="col d-none d-xl-block"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
-                                        <li class="col d-xl-none px-2 px-sm-3"><a href="../shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
+                                        <li class="col d-xl-none px-2 px-sm-3">
+                                            <a
+                                                href="/register"
+                                                class="text-gray-90"
+                                                data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Register">
+                                                <i class="font-size-22 ec ec-user"></i>
+                                            </a>
+                                        </li>
+                                        <li class="col d-xl-none px-2 px-sm-3">
+                                            <a
+                                                href="/login"
+                                                class="text-gray-90"
+                                                data-toggle="tooltip"
+                                                data-placement="top"
+                                                title="Login">
+                                                <i class="font-size-22 ec ec-user"></i>
+                                            </a>
+                                        </li>
                                         <li class="col pr-xl-0 px-2 px-sm-3 d-xl-none">
                                             <a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
