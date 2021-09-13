@@ -43,7 +43,7 @@
                             type="submit"
                             @click.prevent="login()"
                             class="btn btn-block btn-sm btn-primary transition-3d-hover">
-                            Log In
+                            Log in
                           </button>
                         </div>
                     </form>
@@ -91,6 +91,7 @@ export default {
         .then((response) => {
           console.log(response)
           alert('Welcome')
+          location.href = '/'
         })
         .catch((error) => {
           console.log(error)
