@@ -67,6 +67,7 @@ import axios from 'axios'
 export default {
   data () {
     return {
+      token: [],
       email: '',
       password: ''
     }
@@ -89,7 +90,10 @@ export default {
       }
       axios.post('https://admin.buyalltogether.tk/api/v1/login', userData, header)
         .then((response) => {
-          console.log(response)
+          this.token = response.data.data.token
+          console.log(this.token)
+          localStorage.setItem('token', this.token)
+          // console.log(response)
           alert('Welcome')
           location.href = '/'
         })

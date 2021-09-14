@@ -18,6 +18,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     "function-paren-newline": ["error", "never"],
-    'no-console': 'off'
+    'no-console': 'off',
+    'quote-props': '0'
   }
 }

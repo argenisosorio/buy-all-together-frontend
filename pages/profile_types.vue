@@ -28,8 +28,7 @@ export default {
     }
     axios.post('https://admin.buyalltogether.tk/api/v1/list/profile/types', userData, header)
       .then((response) => {
-        this.tipos = response.data.data
-        console.log(this.tipos)
+        console.log(response)
       })
       .catch((error) => {
         alert(error)
