@@ -7,20 +7,24 @@
             <div class="mb-5">
                 <div class="bg-img-hero" style="background-image: url(~/assets/img/1920X422/img1.jpg);">
                     <div class="container min-height-420 overflow-hidden">
-                        <div class="js-slick-carousel u-slick"
+                        <div
+                            class="js-slick-carousel u-slick"
                             data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
                             <div class="js-slide bg-img-hero-center">
                                 <div class="row min-height-420 py-7 py-md-0">
                                     <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                                        <h1 class="font-size-64 text-lh-57 font-weight-light"
+                                        <h1
+                                            class="font-size-64 text-lh-57 font-weight-light"
                                             data-scs-animation-in="fadeInUp">
                                             THE NEW <span class="d-block font-size-55">STANDARD</span>
                                         </h1>
-                                        <h6 class="font-size-15 font-weight-bold mb-3"
+                                        <h6
+                                            class="font-size-15 font-weight-bold mb-3"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="200">UNDER FAVORABLE SMARTWATCHES
                                         </h6>
-                                        <div class="mb-4"
+                                        <div
+                                            class="mb-4"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="300">
                                             <span class="font-size-13">FROM</span>
@@ -28,13 +32,16 @@
                                                 <sup class="">$</sup>749<sup class="">99</sup>
                                             </div>
                                         </div>
-                                        <a href="../shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                                        <a
+                                            href="../shop/single-product-fullwidth.html"
+                                            class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="400">
                                             Start Buying
                                         </a>
                                     </div>
-                                    <div class="col-xl-5 col-6  d-flex align-items-center"
+                                    <div
+                                        class="col-xl-5 col-6  d-flex align-items-center"
                                         data-scs-animation-in="zoomIn"
                                         data-scs-animation-delay="500">
                                         <img class="img-fluid" src="~/assets/img/416X420/img1.png" alt="Image Description">
@@ -44,15 +51,18 @@
                             <div class="js-slide bg-img-hero-center" data-animation-delay="0">
                                 <div class="row min-height-420 py-7 py-md-0">
                                     <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                                        <h1 class="font-size-64 text-lh-57 font-weight-light"
+                                        <h1
+                                            class="font-size-64 text-lh-57 font-weight-light"
                                             data-scs-animation-in="fadeInUp">
                                             THE NEW <span class="d-block font-size-55">STANDARD</span>
                                         </h1>
-                                        <h6 class="font-size-15 font-weight-bold mb-3"
+                                        <h6
+                                            class="font-size-15 font-weight-bold mb-3"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="200">UNDER FAVORABLE SMARTWATCHES
                                         </h6>
-                                        <div class="mb-4"
+                                        <div
+                                            class="mb-4"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="300">
                                             <span class="font-size-13">FROM</span>
@@ -60,13 +70,16 @@
                                                 <sup class="">$</sup>749<sup class="">99</sup>
                                             </div>
                                         </div>
-                                        <a href="../shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                                        <a
+                                            href="../shop/single-product-fullwidth.html"
+                                            class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="400">
                                             Start Buying
                                         </a>
                                     </div>
-                                    <div class="col-xl-5 col-6  d-flex align-items-center"
+                                    <div
+                                        class="col-xl-5 col-6  d-flex align-items-center"
                                         data-scs-animation-in="fadeInUp"
                                         data-scs-animation-delay="500">
                                         <img class="img-fluid" src="~/assets/img/416X420/img2.png" alt="Image Description">
@@ -76,15 +89,18 @@
                             <div class="js-slide bg-img-hero-center" data-animation-delay="0">
                                 <div class="row min-height-420 py-7 py-md-0">
                                     <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                                        <h1 class="font-size-64 text-lh-57 font-weight-light"
+                                        <h1
+                                            class="font-size-64 text-lh-57 font-weight-light"
                                             data-scs-animation-in="fadeInUp">
                                             THE NEW <span class="d-block font-size-55">STANDARD</span>
                                         </h1>
-                                        <h6 class="font-size-15 font-weight-bold mb-3"
+                                        <h6
+                                            class="font-size-15 font-weight-bold mb-3"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="200">UNDER FAVORABLE SMARTWATCHES
                                         </h6>
-                                        <div class="mb-4"
+                                        <div
+                                            class="mb-4"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="300">
                                             <span class="font-size-13">FROM</span>
@@ -92,13 +108,16 @@
                                                 <sup class="">$</sup>749<sup class="">99</sup>
                                             </div>
                                         </div>
-                                        <a href="../shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-15"
+                                        <a
+                                            href="../shop/single-product-fullwidth.html"
+                                            class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-15"
                                             data-scs-animation-in="fadeInUp"
                                             data-scs-animation-delay="400">
                                             Start Buying
                                         </a>
                                     </div>
-                                    <div class="col-xl-5 col-6  d-flex align-items-center"
+                                    <div
+                                        class="col-xl-5 col-6  d-flex align-items-center"
                                         data-scs-animation-in="fadeInRight"
                                         data-scs-animation-delay="500">
                                         <img class="img-fluid" src="~/assets/img/416X420/img3.png" alt="Image Description">
@@ -229,7 +248,8 @@
                                 </div>
                                 <div class="mb-2">
                                     <h6 class="font-size-15 text-gray-2 text-center mb-3">Hurry Up! Offer ends in:</h6>
-                                    <div class="js-countdown d-flex justify-content-center"
+                                    <div
+                                        class="js-countdown d-flex justify-content-center"
                                         data-end-date="2020/11/30"
                                         data-hours-format="%H"
                                         data-minutes-format="%M"
@@ -267,21 +287,42 @@
                                 <div class="position-relative bg-white text-center z-index-2">
                                     <ul class="nav nav-classic nav-tab justify-content-center" id="pills-tab" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active " id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true">
+                                            <a
+                                                class="nav-link active"
+                                                id="pills-one-example1-tab"
+                                                data-toggle="pill"
+                                                href="#pills-one-example1"
+                                                role="tab"
+                                                aria-controls="pills-one-example1"
+                                                aria-selected="true">
                                                 <div class="d-md-flex justify-content-md-center align-items-md-center">
                                                     Featured
                                                 </div>
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link " id="pills-two-example1-tab" data-toggle="pill" href="#pills-two-example1" role="tab" aria-controls="pills-two-example1" aria-selected="false">
+                                            <a
+                                                class="nav-link"
+                                                id="pills-two-example1-tab"
+                                                data-toggle="pill"
+                                                href="#pills-two-example1"
+                                                role="tab"
+                                                aria-controls="pills-two-example1"
+                                                aria-selected="false">
                                                 <div class="d-md-flex justify-content-md-center align-items-md-center">
                                                     On Sale
                                                 </div>
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link " id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="false">
+                                            <a
+                                                class="nav-link"
+                                                id="pills-three-example1-tab"
+                                                data-toggle="pill"
+                                                href="#pills-three-example1"
+                                                role="tab"
+                                                aria-controls="pills-three-example1"
+                                                aria-selected="false">
                                                 <div class="d-md-flex justify-content-md-center align-items-md-center">
                                                     Top Rated
                                                 </div>
@@ -972,63 +1013,126 @@
                     <div class="position-relative text-center z-index-2 mb-3">
                         <ul class="nav nav-classic nav-tab nav-tab-sm px-md-3 justify-content-start justify-content-lg-center flex-nowrap flex-lg-wrap overflow-auto overflow-lg-visble border-md-down-bottom-0 pb-1 pb-lg-0 mb-n1 mb-lg-0" id="pills-tab-1" role="tablist">
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link active " id="Tpills-one-example1-tab" data-toggle="pill" href="#Tpills-one-example1" role="tab" aria-controls="Tpills-one-example1" aria-selected="true">
+                                <a
+                                    class="nav-link active"
+                                    id="Tpills-one-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-one-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-one-example1"
+                                    aria-selected="true">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Best Deals
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-two-example1-tab" data-toggle="pill" href="#Tpills-two-example1" role="tab" aria-controls="Tpills-two-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-two-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-two-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-two-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         TV & Video
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-three-example1-tab" data-toggle="pill" href="#Tpills-three-example1" role="tab" aria-controls="Tpills-three-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-three-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-three-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-three-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Cameras
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-four-example1-tab" data-toggle="pill" href="#Tpills-four-example1" role="tab" aria-controls="Tpills-four-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-four-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-four-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-four-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Audio
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-five-example1-tab" data-toggle="pill" href="#Tpills-five-example1" role="tab" aria-controls="Tpills-five-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-five-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-five-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-five-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Smartphones
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-six-example1-tab" data-toggle="pill" href="#Tpills-six-example1" role="tab" aria-controls="Tpills-six-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-six-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-six-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-six-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         GPS & Navi
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-seven-example1-tab" data-toggle="pill" href="#Tpills-seven-example1" role="tab" aria-controls="Tpills-seven-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-seven-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-seven-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-seven-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Computers
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-eight-example1-tab" data-toggle="pill" href="#Tpills-eight-example1" role="tab" aria-controls="Tpills-eight-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-eight-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-eight-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-eight-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Portable Audio
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Tpills-nine-example1-tab" data-toggle="pill" href="#Tpills-nine-example1" role="tab" aria-controls="Tpills-nine-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Tpills-nine-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Tpills-nine-example1"
+                                    role="tab"
+                                    aria-controls="Tpills-nine-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Accessories
                                     </div>
@@ -1170,7 +1274,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -1189,7 +1295,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -1208,7 +1316,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -1492,7 +1602,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -1511,7 +1623,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -1530,7 +1644,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -1814,7 +1930,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -1833,7 +1951,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -1852,7 +1972,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -2136,7 +2258,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -2155,7 +2279,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -2174,7 +2300,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -2458,7 +2586,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -2477,7 +2607,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -2496,7 +2628,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -2780,7 +2914,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -2799,7 +2935,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -2818,7 +2956,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -3102,7 +3242,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -3121,7 +3263,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -3140,7 +3284,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -3424,7 +3570,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -3443,7 +3591,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -3462,7 +3612,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -3746,7 +3898,9 @@
                                                             <div class="row mx-gutters-2 mb-3">
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img1.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #01"
@@ -3765,7 +3919,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img2.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #02"
@@ -3784,7 +3940,9 @@
 
                                                                 <div class="col-auto">
                                                                     <!-- Gallery -->
-                                                                    <a class="js-fancybox max-width-60 u-media-viewer" href="javascript:;"
+                                                                    <a
+                                                                        class="js-fancybox max-width-60 u-media-viewer"
+                                                                        href="javascript:;"
                                                                         data-src="~/assets/img/1920X1080/img3.jpg"
                                                                         data-fancybox="fancyboxGallery6"
                                                                         data-caption="MAALHOUSE in frames - image #03"
@@ -3948,63 +4106,126 @@
                     <div class="position-relative text-center z-index-2 mb-3">
                         <ul class="nav nav-classic nav-tab nav-tab-sm px-md-3 justify-content-start justify-content-lg-center flex-nowrap flex-lg-wrap overflow-auto overflow-lg-visble border-md-down-bottom-0 pb-1 pb-lg-0 mb-n1 mb-lg-0" id="pills-tab-2" role="tablist">
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link active " id="Gpills-one-example1-tab" data-toggle="pill" href="#Gpills-one-example1" role="tab" aria-controls="Gpills-one-example1" aria-selected="true">
+                                <a
+                                    class="nav-link active"
+                                    id="Gpills-one-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-one-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-one-example1"
+                                    aria-selected="true">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Best Deals
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-two-example1-tab" data-toggle="pill" href="#Gpills-two-example1" role="tab" aria-controls="Gpills-two-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-two-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-two-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-two-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         TV & Video
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-three-example1-tab" data-toggle="pill" href="#Gpills-three-example1" role="tab" aria-controls="Gpills-three-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-three-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-three-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-three-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Cameras
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-four-example1-tab" data-toggle="pill" href="#Gpills-four-example1" role="tab" aria-controls="Gpills-four-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-four-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-four-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-four-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Audio
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-five-example1-tab" data-toggle="pill" href="#Gpills-five-example1" role="tab" aria-controls="Gpills-five-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-five-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-five-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-five-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Smartphones
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-six-example1-tab" data-toggle="pill" href="#Gpills-six-example1" role="tab" aria-controls="Gpills-six-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-six-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-six-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-six-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         GPS & Navi
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-seven-example1-tab" data-toggle="pill" href="#Gpills-seven-example1" role="tab" aria-controls="Gpills-seven-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-seven-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-seven-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-seven-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Computers
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-eight-example1-tab" data-toggle="pill" href="#Gpills-eight-example1" role="tab" aria-controls="Gpills-eight-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-eight-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-eight-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-eight-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Portable Audio
                                     </div>
                                 </a>
                             </li>
                             <li class="nav-item flex-shrink-0 flex-lg-shrink-1">
-                                <a class="nav-link " id="Gpills-nine-example1-tab" data-toggle="pill" href="#Gpills-nine-example1" role="tab" aria-controls="Gpills-nine-example1" aria-selected="false">
+                                <a
+                                    class="nav-link"
+                                    id="Gpills-nine-example1-tab"
+                                    data-toggle="pill"
+                                    href="#Gpills-nine-example1"
+                                    role="tab"
+                                    aria-controls="Gpills-nine-example1"
+                                    aria-selected="false">
                                     <div class="d-md-flex justify-content-md-center align-items-md-center">
                                         Accessories
                                     </div>
@@ -6131,7 +6352,7 @@
             <div class="container">
                 <!-- Prodcut-cards-carousel -->
                 <div class="space-top-2">
-                    <dv class=" d-flex justify-content-between border-bottom border-color-1 flex-md-nowrap flex-wrap border-sm-bottom-0">
+                    <div class=" d-flex justify-content-between border-bottom border-color-1 flex-md-nowrap flex-wrap border-sm-bottom-0">
                         <h3 class="section-title mb-0 pb-2 font-size-22">Bestsellers</h3>
                         <ul class="nav nav-pills mb-2 pt-3 pt-md-0 mb-0 border-top border-color-1 border-md-top-0 align-items-center font-size-15 font-size-15-md flex-nowrap flex-md-wrap overflow-auto overflow-md-visble">
                             <li class="nav-item flex-shrink-0 flex-md-shrink-1">
@@ -6147,8 +6368,9 @@
                                 <a class="nav-link text-gray-8" href="#"> Video Cameras</a>
                             </li>
                         </ul>
-                    </dv>
-                    <div class="js-slick-carousel u-slick u-slick--gutters-2 overflow-hidden u-slick-overflow-visble pt-3 pb-6"
+                    </div>
+                    <div
+                        class="js-slick-carousel u-slick u-slick--gutters-2 overflow-hidden u-slick-overflow-visble pt-3 pb-6"
                         data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-4">
                         <div class="js-slide">
                             <ul class="row list-unstyled products-group no-gutters mb-0 overflow-visible">
@@ -6888,7 +7110,8 @@
                         <div class="border-bottom border-color-1 mb-2">
                             <h3 class="section-title mb-0 pb-2 font-size-22">Recently Viewed</h3>
                         </div>
-                        <div class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1"
+                        <div
+                            class="js-slick-carousel u-slick position-static overflow-hidden u-slick-overflow-visble pb-7 pt-2 px-1"
                             data-pagi-classes="text-center right-0 bottom-1 left-0 u-slick__pagination u-slick__pagination--long mb-0 z-index-n1 mt-3 mt-md-0"
                             data-slides-show="7"
                             data-slides-scroll="1"
@@ -7189,7 +7412,8 @@
                 <!-- Brand Carousel -->
                 <div class="mb-8">
                     <div class="py-2 border-top border-bottom">
-                        <div class="js-slick-carousel u-slick my-1"
+                        <div
+                            class="js-slick-carousel u-slick my-1"
                             data-slides-show="5"
                             data-slides-scroll="1"
                             data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-normal u-slick__arrow-centered--y"
