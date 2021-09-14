@@ -19,6 +19,5 @@ module.exports = {
   rules: {
     "function-paren-newline": ["error", "never"],
     'no-console': 'off',
-    'quote-props': '0'
   }
 }

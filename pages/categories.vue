@@ -12,19 +12,23 @@
               <div class="js-slide bg-img-hero-center">
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                    <h1>Categories</h1>
+                    <h1>Simple categories</h1>
                     <table class="table">
                       <thead>
                         <tr>
                           <th scope="col">Name</th>
                           <th scope="col">Icon</th>
+                          <th scope="col">Image</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr v-for="(categorie, index) in categories" v-bind:key="index">
                           <td>{{ categorie.name }}</td>
                           <td>
-                            <img v-bind:src="categorie.icon" />
+                            <img v-bind:src="categorie.icon" width="100px" />
+                          </td>
+                          <td>
+                            <img v-bind:src="categorie.image" width="100px" />
                           </td>
                         </tr>
                       </tbody>
@@ -70,7 +74,7 @@ export default {
     axios.get('https://admin.buyalltogether.tk/api/v1/list/categories', userData, header)
       .then((response) => {
         this.categories = response.data.data
-        console.log(this.categories)
+        // console.log(this.categories)
         console.log('done')
       })
       .catch((error) => {
