@@ -12,13 +12,14 @@
               <div class="js-slide bg-img-hero-center">
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                    <h1>Simple categories</h1>
+                    <h1>Categories</h1>
                     <table class="table">
                       <thead>
                         <tr>
                           <th scope="col">Name</th>
                           <th scope="col">Icon</th>
                           <th scope="col">Image</th>
+                          <th scope="col">Description</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -30,6 +31,7 @@
                           <td>
                             <img v-bind:src="categorie.image" width="100px" />
                           </td>
+                          <td>{{ categorie.description }}</td>
                         </tr>
                       </tbody>
                     </table>
@@ -53,14 +55,16 @@ import axios from 'axios'
 export default {
   data () {
     return {
-      categories: [],
-      campo_select: ''
+      categories: []
     }
   },
   head: {
     title: 'Categories'
   },
-  created () {
+  mounted () {
+    if (localStorage.token) {
+      this.token = localStorage.token
+    }
     const userData = {
       store: 'true'
     }
@@ -68,13 +72,15 @@ export default {
       headers: {
         'Content-Type': 'application/json;charset=UTF-8',
         'Access-Control-Allow-Origin': '*',
-        'Content-Language': 'en'
+        'Content-Language': 'en',
+        Authorization: 'Bearer ' + this.token
       }
     }
-    axios.get('https://admin.buyalltogether.tk/api/v1/list/categories', userData, header)
+    axios.get('https://admin.buyalltogether.tk/api/v1/categories', userData, header)
       .then((response) => {
-        this.categories = response.data.data
-        // console.log(this.categories)
+        console.log(response)
+        this.categories = response.data.data.records
+        console.log(this.categories)
         console.log('done')
       })
       .catch((error) => {
