@@ -277,7 +277,8 @@ export default {
       axios.post('https://admin.buyalltogether.tk/api/v1/register', userData, header)
         .then((response) => {
           // console.log(response)
-          alert('Success')
+          alert('Thanks for joining')
+          location.href = '/'
         })
         .catch((error) => {
           console.log(error)

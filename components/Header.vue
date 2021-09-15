@@ -55,26 +55,29 @@
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <!-- Account Sidebar Toggle Button -->
                                         <i class="ec ec-user mr-1"></i>
-                                        <a
+                                        <span v-if="authenticated">
+                                            <a
+                                                href="/logout"
+                                                class="u-header-topbar__nav-link"
+                                            >
+                                                Log out
+                                            </a>
+                                        </span>
+                                        <span v-else>
+                                           <a
                                             href="/register"
                                             class="u-header-topbar__nav-link"
-                                        >
-                                          Sign in
-                                        </a>
-                                        <span class="text-gray-50">or</span>
-                                        <a
-                                            href="/login"
-                                            class="u-header-topbar__nav-link"
-                                        >
-                                          Log in
-                                        </a>
-                                        |
-                                        <a
-                                            href="/logout"
-                                            class="u-header-topbar__nav-link"
-                                        >
-                                          Log out
-                                        </a>
+                                            >
+                                              Sign in
+                                            </a>
+                                            <span class="text-gray-50">or</span>
+                                            <a
+                                                href="/login"
+                                                class="u-header-topbar__nav-link"
+                                            >
+                                              Log in
+                                            </a>
+                                        </span>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
                                 </ul>
@@ -1174,3 +1177,20 @@
 
     </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      authenticated: ''
+    }
+  },
+  mounted () {
+    if (localStorage.token) {
+      this.authenticated = true
+    } else {
+      this.authenticated = false
+    }
+  }
+}
+</script>
