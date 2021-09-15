@@ -52,6 +52,8 @@ export default {
     logout () {
       if (localStorage.token) {
         localStorage.removeItem('token')
+        alert('Good bye')
+        location.href = '/'
       } else {
         alert('No token exists')
       }
