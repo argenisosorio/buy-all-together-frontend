@@ -68,6 +68,13 @@
                                         >
                                           Log in
                                         </a>
+                                        |
+                                        <a
+                                            href="/logout"
+                                            class="u-header-topbar__nav-link"
+                                        >
+                                          Log out
+                                        </a>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
                                 </ul>
