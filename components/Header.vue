@@ -56,27 +56,27 @@
                                         <!-- Account Sidebar Toggle Button -->
                                         <i class="ec ec-user mr-1"></i>
                                         <span v-if="authenticated">
-                                            <a
-                                                href="/logout"
+                                            <NuxtLink
+                                                to="/logout"
                                                 class="u-header-topbar__nav-link"
                                             >
                                                 Log out
-                                            </a>
+                                            </NuxtLink>
                                         </span>
                                         <span v-else>
-                                           <a
-                                            href="/register"
-                                            class="u-header-topbar__nav-link"
+                                           <NuxtLink
+                                                to="/register"
+                                                class="u-header-topbar__nav-link"
                                             >
                                               Sign in
-                                            </a>
+                                            </NuxtLink>
                                             <span class="text-gray-50">or</span>
-                                            <a
-                                                href="/login"
+                                            <NuxtLink
+                                                to="/login"
                                                 class="u-header-topbar__nav-link"
                                             >
                                               Log in
-                                            </a>
+                                            </NuxtLink>
                                         </span>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
