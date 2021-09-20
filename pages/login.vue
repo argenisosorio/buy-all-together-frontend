@@ -59,7 +59,6 @@
       <!-- End Slider Section -->
     </main>
     <Footer />
-    <Aside />
     <GoOnTop />
   </div>
 </template>
