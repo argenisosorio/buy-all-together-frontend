@@ -29,7 +29,7 @@ export default {
       { src: "vendor/fancybox/jquery.fancybox.min.js" },
       { src: "vendor/typed.js/lib/typed.min.js" },
       { src: "vendor/slick-carousel/slick/slick.js" },
-      { src: "vendor/bootstrap-select/dist/js/bootstrap-select.min.js" },
+      { src: "vendor/bootstrap-select/distt/js/bootstrap-select.min.js" },
       { src: "js/hs.core.js" },
       { src: "js/components/hs.countdown.js" },
       { src: "js/components/hs.header.js" },
@@ -58,7 +58,7 @@ export default {
     '~/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css',
     '~/assets/vendor/fancybox/jquery.fancybox.css',
     '~/assets/vendor/slick-carousel/slick/slick.css',
-    '~/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css',
+    '~/assets/vendor/bootstrap-selectt/dist/css/bootstrap-select.min.css',
     '~/assets/css/theme.css'
   ],
 
