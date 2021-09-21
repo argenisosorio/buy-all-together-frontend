@@ -12,7 +12,7 @@
                             data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
                             <div class="js-slide bg-img-hero-center">
                                 <div class="row min-height-420 py-7 py-md-0">
-                                    <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
+                                    <div class="col-xl-6 col-6" style="text-align: center;">
                                         <h1
                                             class="font-size-64 text-lh-57 font-weight-light"
                                             data-scs-animation-in="fadeInUp">
@@ -41,7 +41,7 @@
                                         </a>
                                     </div>
                                     <div
-                                        class="col-xl-5 col-6  d-flex align-items-center"
+                                        class="col-xl-6 col-6"
                                         data-scs-animation-in="zoomIn"
                                         data-scs-animation-delay="500">
                                         <img class="img-fluid" src="~/assets/img/416X420/img1.png" alt="Image Description">
@@ -5399,6 +5399,5 @@
             <!-- End Products-4-1-4 -->
         </main>
         <!-- ========== END MAIN CONTENT ========== -->
-
     </div>
 </template>

@@ -8,30 +8,48 @@
           <div class="container min-height-420 overflow-hidden">
             <div
               class=""
-              data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
+              data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1"
+            >
               <div class="js-slide bg-img-hero-center">
                 <div class="row min-height-420 py-7 py-md-0">
-                  <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
+                  <div class="col-12">
                     <h1>Categories</h1>
                     <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">Name</th>
-                          <th scope="col">Icon</th>
-                          <th scope="col">Image</th>
-                          <th scope="col">Description</th>
+                          <th scope="col">
+                            Category
+                          </th>
+                          <th scope="col">
+                            Name
+                          </th>
+                          <th scope="col">
+                            Description
+                          </th>
+                          <th scope="col">
+                            Icon
+                          </th>
+                          <th scope="col">
+                            Image
+                          </th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr v-for="(categorie, index) in categories" v-bind:key="index">
+                        <tr v-for="(categorie, index) in categories" :key="index">
+                          <div v-if="categorie.category === null">
+                            <td>No data</td>
+                          </div>
+                          <div v-else>
+                            <td>{{ categorie.category.name }}</td>
+                          </div>
                           <td>{{ categorie.name }}</td>
-                          <td>
-                            <img v-bind:src="categorie.icon" width="100px" />
-                          </td>
-                          <td>
-                            <img v-bind:src="categorie.image" width="100px" />
-                          </td>
                           <td>{{ categorie.description }}</td>
+                          <td>
+                            <img :src="categorie.icon" width="100px"></img>
+                          </td>
+                          <td>
+                            <img :src="categorie.image" width="100px"></img>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -45,8 +63,12 @@
       <!-- End Slider Section -->
     </main>
     <Footer />
-    <Aside />
     <GoOnTop />
+    <style type="text/css">
+      .col-12 {
+        /*border: ridge 1px red;*/
+      }
+    </style>
   </div>
 </template>
 
