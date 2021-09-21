@@ -14,45 +14,57 @@
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="col-12">
                     <h1>Categories</h1>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            Category
-                          </th>
-                          <th scope="col">
-                            Name
-                          </th>
-                          <th scope="col">
-                            Description
-                          </th>
-                          <th scope="col">
-                            Icon
-                          </th>
-                          <th scope="col">
-                            Image
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr v-for="(categorie, index) in categories" :key="index">
-                          <div v-if="categorie.category === null">
-                            <td>No data</td>
-                          </div>
-                          <div v-else>
-                            <td>{{ categorie.category.name }}</td>
-                          </div>
-                          <td>{{ categorie.name }}</td>
-                          <td>{{ categorie.description }}</td>
-                          <td>
-                            <img :src="categorie.icon" width="100px"></img>
-                          </td>
-                          <td>
-                            <img :src="categorie.image" width="100px"></img>
-                          </td>
-                        </tr>
-                      </tbody>
+                    <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search by categorie...">
+                    <table id="myTable" border="1px">
+                      <tr>
+                        <th scope="col">
+                          Category
+                        </th>
+                        <th scope="col">
+                          Name
+                        </th>
+                        <th scope="col">
+                          Description
+                        </th>
+                        <th scope="col">
+                          Icon
+                        </th>
+                        <th scope="col">
+                          Image
+                        </th>
+                      </tr>
+                      <tr v-for="(categorie, index) in categories" :key="index">
+                        <td>{{ categorie.category.name }}</td>
+                        <td>{{ categorie.name }}</td>
+                        <td>{{ categorie.description }}</td>
+                        <td>
+                          <img :src="categorie.icon" width="100px"></img>
+                        </td>
+                        <td>
+                          <img :src="categorie.image" width="100px"></img>
+                        </td>
+                      </tr>
                     </table>
+                    <script>
+                    function searchFunction() {
+                      var input, filter, table, tr, td, i, txtValue;
+                      input = document.getElementById("myInput");
+                      filter = input.value.toUpperCase();
+                      table = document.getElementById("myTable");
+                      tr = table.getElementsByTagName("tr");
+                      for (i = 0; i < tr.length; i++) {
+                        td = tr[i].getElementsByTagName("td")[0];
+                        if (td) {
+                          txtValue = td.textContent || td.innerText;
+                          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                          } else {
+                            tr[i].style.display = "none";
+                          }
+                        }
+                      }
+                    }
+                    </script>
                   </div>
                 </div>
               </div>

@@ -51,7 +51,7 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="mb-6">
-                                <a href="#" class="d-inline-block">
+                                <a href="/" class="d-inline-block">
                                     <img src="~/assets/img/Logo/logo.png" width="175.748px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
                                 </a>
                             </div>
