@@ -15,7 +15,7 @@
                   <div class="col-12">
                     <h1>Categories</h1>
                     <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search by categorie...">
-                    <table id="myTable" border="1px">
+                    <table class="table table-striped" id="myTable">
                       <tr>
                         <th scope="col">
                           Category
@@ -33,17 +33,19 @@
                           Image
                         </th>
                       </tr>
-                      <tr v-for="(categorie, index) in categories" :key="index">
-                        <td>{{ categorie.category.name }}</td>
-                        <td>{{ categorie.name }}</td>
-                        <td>{{ categorie.description }}</td>
-                        <td>
-                          <img :src="categorie.icon" width="100px"></img>
-                        </td>
-                        <td>
-                          <img :src="categorie.image" width="100px"></img>
-                        </td>
-                      </tr>
+                      <tbody>
+                        <tr v-for="(categorie, index) in categories" :key="index">
+                          <td>{{ categorie.category.name }}</td>
+                          <td>{{ categorie.name }}</td>
+                          <td>{{ categorie.description }}</td>
+                          <td>
+                            <img :src="categorie.icon" width="100px"></img>
+                          </td>
+                          <td>
+                            <img :src="categorie.image" width="100px"></img>
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
                     <script>
                     function searchFunction() {
