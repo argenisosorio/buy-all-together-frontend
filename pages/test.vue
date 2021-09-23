@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="/login" >
+    <a href="/login">
       Log in
     </a>
     |
@@ -9,9 +9,7 @@
     </a>
     <ul>
       <div v-if="authenticated">
-        <li v-for="(show, index) in tvshows" v-bind:key="index">
-          {{ show.name }} ({{ show.seasons }} temporadas)
-        </li>
+        Authenticated
       </div>
       <div v-else>
         Not authenticated
@@ -24,12 +22,7 @@
 export default {
   data () {
     return {
-      authenticated: '',
-      tvshows: [
-        { name: 'Serie 1', seasons: 3 },
-        { name: 'Serie 2', seasons: 5 },
-        { name: 'Serie 3', seasons: 2 }
-      ]
+      authenticated: ''
     }
   },
   head: {
