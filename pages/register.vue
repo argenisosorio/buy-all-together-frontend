@@ -8,92 +8,169 @@
           <div class="container min-height-420 overflow-hidden">
             <div
               class=""
-              data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
+              data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1"
+            >
               <div class="js-slide bg-img-hero-center">
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                    <h1>Register user</h1>
-                      <form method="post">
+                    <h1> Create account</h1>
+                    <form method="post">
+                      <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <input
+                          v-model="name"
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          placeholder="Name"
+                          aria-label="Name"
+                          required
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input
+                          v-model="email"
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          placeholder="Email"
+                          aria-label="Email"
+                          required
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Profile type</label>
+                        <select
+                          v-model="profile_type_id"
+                          class="form-control"
+                          name="profile_type_id"
+                        >
+                          <option
+                            value=""
+                            selected
+                          >
+                            Select
+                          </option>
+                          <option
+                            v-for="(x, index) in profile_types"
+                            :key="index"
+                            :value="x.id"
+                          >
+                            {{ x.name }}
+                          </option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input
+                          v-model="password"
+                          type="password"
+                          class="form-control"
+                          name="password"
+                          placeholder="Password"
+                          aria-label="Password"
+                          required
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Password confirmation</label>
+                        <input
+                          v-model="password_confirmation"
+                          type="password"
+                          class="form-control"
+                          name="password confirmation"
+                          placeholder="Password confirmation"
+                          aria-label="Password confirmation"
+                          required
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input
+                          v-model="phone"
+                          type="text"
+                          class="form-control"
+                          name="phone"
+                          placeholder="Phone"
+                          aria-label="Phone"
+                          required
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Country</label>
+                        <select v-model="country_id" class="form-control" name="country_id">
+                          <option
+                            value=""
+                            selected
+                          >
+                            Select
+                          </option>
+                          <option
+                            v-for="(x, index) in countries"
+                            :key="index"
+                            :value="x.id"
+                          >
+                            {{ x.name }}
+                          </option>
+                        </select>
+                      </div>
+                      <h2>Store</h2>
+                      <div v-if="profile_type_id === 4">
                         <div class="form-group">
-                          <label class="form-label">Name</label>
+                          <label class="form-label">Store name</label>
                           <input
-                            v-model="name"
+                            v-model="store_name"
                             type="text"
                             class="form-control"
-                            name="name"
-                            placeholder="Name"
-                            aria-label="Name"
+                            name="store_name"
+                            placeholder="Store name"
+                            aria-label="Store name"
                             required
                           >
                         </div>
+                      </div>
+                      <div v-else />
+                      <div v-if="profile_type_id === 4">
                         <div class="form-group">
-                          <label class="form-label">Email</label>
+                          <label class="form-label">Branches</label>
                           <input
-                            v-model="email"
-                            type="email"
+                            v-model="branches"
+                            type="number"
                             class="form-control"
-                            name="email"
-                            placeholder="Email"
-                            aria-label="Email"
+                            name="branches"
+                            placeholder="Branches"
+                            aria-label="Branches"
                             required
                           >
                         </div>
+                      </div>
+                      <div v-else />
+                      <div v-if="profile_type_id === 4">
                         <div class="form-group">
-                          <label class="form-label">Profile type</label>
-                          <select
-                            v-model="profile_type_id"
+                          <label class="form-label">Category id</label>
+                          <input
+                            v-model="category_id"
+                            type="text"
                             class="form-control"
-                            name="profile_type_id">
-                            <option value="" selected>Select</option>
+                            name="Category id"
+                            placeholder="Category id"
+                            aria-label="Category id"
+                            required
+                          >
+                        </div>
+                      </div>
+                      <div v-else />
+                      <div v-if="profile_type_id === 4">
+                        <div class="form-group">
+                          <label class="form-label">Country store</label>
+                          <select v-model="country_store_id" class="form-control" name="country_store_id">
                             <option
-                              v-for="(x, index) in profile_types"
-                              :key="index"
-                              :value="x.id"
+                              value=""
+                              selected
                             >
-                              {{ x.name }}
+                              Select
                             </option>
-                          </select>
-                        </div>
-                        <div class="form-group">
-                          <label class="form-label">Password</label>
-                          <input
-                            v-model="password"
-                            type="password"
-                            class="form-control"
-                            name="password"
-                            placeholder="Password"
-                            aria-label="Password"
-                            required
-                          >
-                        </div>
-                        <div class="form-group">
-                          <label class="form-label">Password confirmation</label>
-                          <input
-                            v-model="password_confirmation"
-                            type="password"
-                            class="form-control"
-                            name="password confirmation"
-                            placeholder="Password confirmation"
-                            aria-label="Password confirmation"
-                            required
-                          >
-                        </div>
-                        <div class="form-group">
-                          <label class="form-label">Phone</label>
-                          <input
-                            v-model="phone"
-                            type="text"
-                            class="form-control"
-                            name="phone"
-                            placeholder="Phone"
-                            aria-label="Phone"
-                            required
-                          >
-                        </div>
-                        <div class="form-group">
-                          <label class="form-label">Country</label>
-                          <select v-model="country_id" class="form-control" name="country_id">
-                            <option value="" selected>Select</option>
                             <option
                               v-for="(x, index) in countries"
                               :key="index"
@@ -103,89 +180,35 @@
                             </option>
                           </select>
                         </div>
-                        <h2>Store</h2>
-                        <div v-if="profile_type_id === 4">
-                          <div class="form-group">
-                            <label class="form-label">Store name</label>
-                            <input
-                              v-model="store_name"
-                              type="text"
-                              class="form-control"
-                              name="store_name"
-                              placeholder="Store name"
-                              aria-label="Store name"
-                              required
-                            >
-                          </div>
-                        </div>
-                        <div v-else />
-                        <div v-if="profile_type_id === 4">
-                          <div class="form-group">
-                            <label class="form-label">Branches</label>
-                            <input
-                              v-model="branches"
-                              type="number"
-                              class="form-control"
-                              name="branches"
-                              placeholder="Branches"
-                              aria-label="Branches"
-                              required
-                            >
-                          </div>
-                        </div>
-                        <div v-else />
-                        <div v-if="profile_type_id === 4">
-                          <div class="form-group">
-                            <label class="form-label">Category id</label>
-                            <input
-                              v-model="category_id"
-                              type="text"
-                              class="form-control"
-                              name="Category id"
-                              placeholder="Category id"
-                              aria-label="Category id"
-                              required
-                            >
-                          </div>
-                        </div>
-                        <div v-else />
-                        <div v-if="profile_type_id === 4">
-                          <div class="form-group">
-                            <label class="form-label">Country store</label>
-                            <select v-model="country_store_id" class="form-control" name="country_store_id">
-                              <option value="" selected>Select</option>
-                              <option
-                                v-for="(x, index) in countries"
-                                :key="index"
-                                :value="x.id"
-                              >
-                                {{ x.name }}
-                              </option>
-                            </select>
-                          </div>
-                        </div>
-                        <div v-else />
-                        <div class="form-group">
-                          <label class="form-label">Store phone</label>
-                          <input
-                            v-model="store_phone"
-                            type="text"
-                            class="form-control"
-                            name="Store phones"
-                            placeholder="Store phone"
-                            aria-label="Store phone"
-                            required
-                          >
-                        </div>
-                        <div>
-                          <button
-                            type="submit"
-                            @click.prevent="register()"
-                            class="btn btn-block btn-sm btn-primary transition-3d-hover">
-                            Register
-                          </button>
-                        </div>
-                      </form>
+                      </div>
+                      <div v-else />
+                      <div class="form-group">
+                        <label class="form-label">Store phone</label>
+                        <input
+                          v-model="store_phone"
+                          type="text"
+                          class="form-control"
+                          name="Store phones"
+                          placeholder="Store phone"
+                          aria-label="Store phone"
+                          required
+                        >
+                      </div>
+                      <div>
+                        <button
+                          type="submit"
+                          class="btn btn-block btn-sm btn-primary transition-3d-hover"
+                          @click.prevent="register()"
+                        >
+                          Register
+                        </button>
+                      </div>
+                    </form>
+                    <br>
+                    Already have an account?
+                    <NuxtLink to="/login">
+                      Sign-In
+                    </NuxtLink>
                   </div>
                 </div>
               </div>

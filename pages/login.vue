@@ -13,7 +13,8 @@
               <div class="js-slide bg-img-hero-center">
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                    <h1>Log in</h1>
+                    <h1>Sign in to MAALHOUSE</h1>
+                    <br>
                     <form method="post">
                       <div class="form-group">
                         <label class="form-label">Email</label>
@@ -49,6 +50,11 @@
                         </button>
                       </div>
                     </form>
+                    <br>
+                    New to MAALHOUSE?
+                    <NuxtLink to="/register">
+                      Create an account.
+                    </NuxtLink>
                   </div>
                 </div>
               </div>

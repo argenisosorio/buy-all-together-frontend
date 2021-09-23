@@ -68,7 +68,7 @@
                                                 to="/register"
                                                 class="u-header-topbar__nav-link"
                                             >
-                                              Sign in
+                                              Sign up
                                             </NuxtLink>
                                             <span class="text-gray-50">or</span>
                                             <NuxtLink
