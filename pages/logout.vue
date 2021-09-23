@@ -1,6 +1,5 @@
 <template>
-  <div>
-  </div>
+  <div />
 </template>
 
 <script>
@@ -34,6 +33,8 @@ export default {
       .then((response) => {
         if (localStorage.token) {
           localStorage.removeItem('token')
+          localStorage.removeItem('user_name')
+          localStorage.removeItem('user_roles_name')
           alert('Good bye')
           location.href = '/'
         } else {

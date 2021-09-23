@@ -75,6 +75,8 @@ export default {
   data () {
     return {
       token: [],
+      user_name: [],
+      user_roles_name: [],
       email: '',
       password: ''
     }
@@ -97,10 +99,14 @@ export default {
       }
       axios.post('https://admin.buyalltogether.tk/api/v1/login', userData, header)
         .then((response) => {
-          this.token = response.data.data.token
-          console.log(this.token)
-          localStorage.setItem('token', this.token)
           // console.log(response)
+          this.token = response.data.data.token
+          this.user_name = response.data.data.user.name
+          this.user_roles_name = response.data.data.user.roles[0].name
+          console.log(this.user_roles_name)
+          localStorage.setItem('token', this.token)
+          localStorage.setItem('user_name', this.user_name)
+          localStorage.setItem('user_roles_name', this.user_roles_name)
           alert('Welcome')
           location.href = '/'
         })

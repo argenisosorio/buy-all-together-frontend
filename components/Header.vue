@@ -56,6 +56,7 @@
                                         <!-- Account Sidebar Toggle Button -->
                                         <i class="ec ec-user mr-1"></i>
                                         <span v-if="authenticated">
+                                            <b>{{ user_name }}({{ user_roles_name }})</b>
                                             <NuxtLink
                                                 to="/logout"
                                                 class="u-header-topbar__nav-link"
@@ -797,12 +798,16 @@
 export default {
   data () {
     return {
-      authenticated: ''
+      authenticated: '',
+      user_name: '',
+      user_roles_name: ''
     }
   },
   mounted () {
     if (localStorage.token) {
       this.authenticated = true
+      this.user_name = localStorage.getItem('user_name')
+      this.user_roles_name = localStorage.getItem('user_roles_name')
     } else {
       this.authenticated = false
     }

@@ -14,8 +14,8 @@
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="col-12">
                     <h1>Categories</h1>
-                    <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search by categorie...">
-                    <table class="table table-striped" id="myTable">
+                    <input id="myInput" type="text" onkeyup="searchFunction()" placeholder="Search by categorie...">
+                    <table id="myTable" class="table table-striped">
                       <tr>
                         <th scope="col">
                           Category
@@ -48,24 +48,24 @@
                       </tbody>
                     </table>
                     <script>
-                    function searchFunction() {
+                      function searchFunction() {
                       var input, filter, table, tr, td, i, txtValue;
                       input = document.getElementById("myInput");
                       filter = input.value.toUpperCase();
                       table = document.getElementById("myTable");
                       tr = table.getElementsByTagName("tr");
                       for (i = 0; i < tr.length; i++) {
-                        td = tr[i].getElementsByTagName("td")[0];
-                        if (td) {
-                          txtValue = td.textContent || td.innerText;
-                          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                            tr[i].style.display = "";
-                          } else {
-                            tr[i].style.display = "none";
-                          }
-                        }
+                      td = tr[i].getElementsByTagName("td")[0];
+                      if (td) {
+                      txtValue = td.textContent || td.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      tr[i].style.display = "";
+                      } else {
+                      tr[i].style.display = "none";
                       }
-                    }
+                      }
+                      }
+                      }
                     </script>
                   </div>
                 </div>
@@ -80,7 +80,7 @@
     <GoOnTop />
     <style type="text/css">
       .col-12 {
-        /*border: ridge 1px red;*/
+      /*border: ridge 1px red;*/
       }
     </style>
   </div>
