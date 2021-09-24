@@ -14,6 +14,55 @@
                 <div class="row min-height-420 py-7 py-md-0">
                   <div class="col-12">
                     <h1>Products</h1>
+                    <input id="myInput" type="text" onkeyup="searchFunction()" placeholder="Search by name...">
+                    <table id="myTable" class="table table-striped">
+                      <tr>
+                        <th scope="col">
+                          Name
+                        </th>
+                        <th scope="col">
+                          Description
+                        </th>
+                        <th scope="col">
+                          Price
+                        </th>
+                        <th scope="col">
+                          Quantity
+                        </th>
+                        <th scope="col">
+                          Discount
+                        </th>
+                      </tr>
+                      <tbody>
+                        <tr v-for="(product, index) in products" :key="index">
+                          <td>{{ product.name }}</td>
+                          <td>{{ product.description }}</td>
+                          <td>{{ product.price }}</td>
+                          <td>{{ product.quantity }}</td>
+                          <td>{{ product.discount }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <script>
+                      function searchFunction() {
+                      var input, filter, table, tr, td, i, txtValue;
+                      input = document.getElementById("myInput");
+                      filter = input.value.toUpperCase();
+                      table = document.getElementById("myTable");
+                      tr = table.getElementsByTagName("tr");
+                      for (i = 0; i < tr.length; i++) {
+                      td = tr[i].getElementsByTagName("td")[0];
+                      if (td) {
+                      txtValue = td.textContent || td.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      tr[i].style.display = "";
+                      } else {
+                      tr[i].style.display = "none";
+                      }
+                      }
+                      }
+                      }
+                    </script>
                   </div>
                 </div>
               </div>
@@ -38,7 +87,7 @@ import axios from 'axios'
 export default {
   data () {
     return {
-      categories: []
+      products: []
     }
   },
   head: {
@@ -48,9 +97,6 @@ export default {
     if (localStorage.token) {
       this.token = localStorage.token
     }
-    const userData = {
-      store: 'true'
-    }
     const header = {
       headers: {
         'Content-Type': 'application/json;charset=UTF-8',
@@ -59,12 +105,12 @@ export default {
         Authorization: 'Bearer ' + this.token
       }
     }
-    axios.get('https://admin.buyalltogether.tk/api/v1/list/products', userData, header)
+    axios.get('https://admin.buyalltogether.tk/api/v1/products', header)
       .then((response) => {
         console.log(response)
-        this.categories = response.data.data.records
-        console.log(this.categories)
-        console.log('done')
+        this.products = response.data.data.records
+        console.log(this.products)
+        // console.log('done')
       })
       .catch((error) => {
         console.log(error)

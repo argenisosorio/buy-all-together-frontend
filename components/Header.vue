@@ -56,7 +56,7 @@
                                         <!-- Account Sidebar Toggle Button -->
                                         <i class="ec ec-user mr-1"></i>
                                         <span v-if="authenticated">
-                                            <b>{{ user_name }}({{ user_roles_name }})</b>
+                                            <b>{{ user_name }} ({{ user_roles_name }})</b>
                                             <NuxtLink
                                                 to="/logout"
                                                 class="u-header-topbar__nav-link"
@@ -662,7 +662,7 @@
                                             data-position="left">
                                             <NuxtLink
                                                 id="homeMegaMenu"
-                                                class="text-dark-purple nav-link u-header__nav-link"
+                                                class="nav-link u-header__nav-link"
                                                 to="/categories"
                                                 aria-haspopup="true"
                                                 aria-expanded="false"
@@ -754,7 +754,15 @@
 
                                         <!-- Featured Brands -->
                                         <li class="nav-item u-header__nav-item">
-                                            <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Featured Brands</a>
+                                            <NuxtLink
+                                                class="nav-link u-header__nav-link"
+                                                to="/products"
+                                                aria-haspopup="true"
+                                                aria-expanded="false"
+                                                aria-labelledby="pagesSubMenu"
+                                            >
+                                                Products
+                                            </NuxtLink>
                                         </li>
                                         <!-- End Featured Brands -->
 
