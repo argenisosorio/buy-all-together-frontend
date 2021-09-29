@@ -35,7 +35,7 @@ export default {
           localStorage.removeItem('token')
           localStorage.removeItem('user_name')
           localStorage.removeItem('user_roles_name')
-          alert('Good bye')
+          // alert('Good bye')
           location.href = '/'
         } else {
           alert('No token exists')
@@ -46,7 +46,7 @@ export default {
         // alert('Access denied')
         if (localStorage.token) {
           localStorage.removeItem('token')
-          alert('Good bye')
+          // alert('Good bye')
           location.href = '/'
         } else {
           // alert('No token exists')

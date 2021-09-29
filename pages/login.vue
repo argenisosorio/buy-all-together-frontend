@@ -107,7 +107,7 @@ export default {
           localStorage.setItem('token', this.token)
           localStorage.setItem('user_name', this.user_name)
           localStorage.setItem('user_roles_name', this.user_roles_name)
-          alert('Welcome')
+          // alert('Welcome')
           location.href = '/'
         })
         .catch((error) => {
